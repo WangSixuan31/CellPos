@@ -4,6 +4,7 @@ Abstract+workflow.
 ## Dependencies and requirements 
 ### Create a CellPos environment
 For CellPos, the Python version needs to be above 3.8, and it is recommended to create a new environment.
+<pre> ```bash conda env create -n deeptalk-env python=3.8.0 ``` </pre>
 ### Install pytorch
 ### Install CellPos
 ### Install other dependencies
