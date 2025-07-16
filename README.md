@@ -12,7 +12,7 @@ conda env create -n cellpos-env python=3.8.0
 conda activate cellpos-env 
 ```
 ### Install pytorch
-The PyTorch version should be compatible with the CUDA version installed on your system. You can find the appropriate version on the PyTorch website. 
+The PyTorch version should be compatible with the CUDA version installed on your system. You can find the appropriate version on the PyTorch website.   
 For example, here is one for CUDA 12.6:
 ```bash
 pip3 install torch torchvision torchaudio
@@ -28,4 +28,6 @@ scanpy>=1.8.2,<=1.9.6
 torch>=1.8.0,<=1.13.0  
 torchvision>=0.9.0,<=1.14.0  
 ## Tutorials
-
+The following are detailed tutorials.   
+1.  
+2.  
