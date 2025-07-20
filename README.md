@@ -24,9 +24,17 @@ python setup.py build
 python setup.py install
 ```
 ### Install other dependencies
-scanpy>=1.8.2,<=1.9.6  
-torch>=1.8.0,<=1.13.0  
-torchvision>=0.9.0,<=1.14.0  
+numpy==1.23.5  
+pandas==1.5.3  
+anndata==0.9.2   
+pytorch==2.4.1   
+scikit-learn==1.3.0   
+scanpy==1.9.8    
+squidpy==1.2.2   
+scanorama==1.7.4   
+tqdm==4.65.0   
+matplotlib==3.7.5  
+seaborn==0.13.2   
 ## Tutorials
 The following are detailed tutorials.   
 1.  
