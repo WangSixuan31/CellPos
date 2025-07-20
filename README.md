@@ -37,5 +37,5 @@ matplotlib==3.7.5
 seaborn==0.13.2   
 ## Tutorials
 The following are detailed tutorials.   
-1. CellPos is applied to mouse embryo datasets to perform spatial positioning.  
+1. CellPos is applied to mouse embryo datasets to perform spatial positioning. (./tutorials/)  
 2. CellPos is applied to human DLPFC datasets to perform spatial positioning.  
