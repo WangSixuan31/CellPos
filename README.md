@@ -1,6 +1,7 @@
  # CellPos
 ## A computing framework for spatial positioning of single-cell RNA sequencing data 
-[figure-1.pdf](https://github.com/user-attachments/files/21333746/figure-1.pdf)
+
+<img width="578.4" height="396" alt="image" src="https://github.com/user-attachments/assets/3e90a0f7-65df-46b5-9901-925b662491e9" />
 
 Cellular spatial localization within tissues, together with the surrounding microenvironment and transcriptomic features, collectively determines cellular functional states and intercellular interactions, which are crucial for comprehensively understanding tissue development, physiological homeostasis, and disease progression. However, achieving high-precision spatial inference at single-cell resolution remains a significant challenge. To address this, we have developed a novel spatial localization method, CellPos, which is based on a graph attention autoencoder and multi-task learning strategies. By integrating single-cell RNA sequencing (scRNA-seq) with spatial transcriptomics (ST) data, CellPos learns the complex nonlinear mapping between gene expression and spatial location, thereby assigning spatial coordinates to dissociated cells. Our systematic evaluation of CellPos across multiple datasets spanning different species, tissues, and platforms demonstrates that CellPos can reliably and accurately recover cellular spatial architectures, highlighting its broad potential for applications in tissue reconstruction and spatial biology studies.
 
