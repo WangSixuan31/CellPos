@@ -24,9 +24,6 @@ python setup.py build
 python setup.py install
 ```
 ### Install other dependencies
-scanpy>=1.8.2,<=1.9.6  
-torch>=1.8.0,<=1.13.0  
-torchvision>=0.9.0,<=1.14.0  
 numpy==1.23.5  
 pandas==1.5.3  
 anndata==0.9.2   
@@ -40,4 +37,5 @@ matplotlib==3.7.5
 seaborn==0.13.2   
 ## Tutorials
 The following are detailed tutorials.   
-1.  
+1. CellPos is applied to mouse embryo datasets to perform spatial positioning.  
+2. CellPos is applied to human DLPFC datasets to perform spatial positioning.  
