@@ -1,8 +1,7 @@
  # CellPos
 ## A computing framework for spatial positioning of single-cell RNA sequencing data 
 
-<img width="578.4" height="396" alt="image" src="https://github.com/user-attachments/assets/21e6cb4b-f38b-48a4-bb5b-2658e11da6fb" />
-[figure-1.pdf](https://github.com/user-attachments/files/21580318/figure-1.pdf)
+<img width="714" height="508" alt="image" src="https://github.com/user-attachments/assets/7c68ca7a-c662-4825-a73f-08e7002cf77f" />
 
 Cells are the fundamental units of biological systems, and single-cell RNA sequencing (scRNA-seq) technologies have greatly advanced the study of cellular heterogeneity. However, scRNA-seq lacks spatial information, which is essential for a comprehensive understanding of tissue development, physiological homeostasis, and disease progression. Transferring spatial coordinate prediction capabilities from spatial transcriptomics (ST) data to scRNA-seq enables cellular spatial positioning but remains computationally challenging. To address this, we developed CellPos, an innovative spatial positioning method that employs a graph attention autoencoder to align scRNA-seq and ST data, and combines multi-task learning strategy to model the complex nonlinear relationships between gene expression and spatial position, thereby accurately assigning spatial coordinates to dissociated cells. Systematic evaluation across diverse datasets spanning species, tissues, and platforms demonstrates that CellPos reliably and precisely infers cellular spatial positions, highlighting its broad potential for tissue reconstruction and spatial biology applications.<img width="432" height="407" alt="image" src="https://github.com/user-attachments/assets/f9b73d4a-cf11-4375-ae78-37d17d5fba47" />
 
@@ -41,5 +40,6 @@ seaborn==0.13.2
 The following are detailed tutorials.   
 1. CellPos is applied to [mouse embryo datasets](./tutorials/Analysis_Mouse_Embryo.ipynb) to perform spatial positioning.   
 2. CellPos is applied to [human DLPFC datasets](./tutorials/Analysis_Human_DLPFC.ipynb) to perform spatial positioning.  
+
 
 
