@@ -3,7 +3,8 @@
 
 ![CellPos Workflow](CellPos_workflow.png)
 
-Cells are the fundamental units of biological systems, and single-cell RNA sequencing (scRNA-seq) technologies have greatly advanced the study of cellular heterogeneity. However, scRNA-seq lacks spatial information, which is essential for a comprehensive understanding of tissue development, physiological homeostasis, and disease progression. Transferring spatial coordinate prediction capabilities from spatial transcriptomics (ST) data to scRNA-seq enables cellular spatial positioning but remains computationally challenging. To address this, we developed CellPos, an innovative spatial positioning method that employs a graph attention autoencoder to align scRNA-seq and ST data, and combines multi-task learning strategy to model the complex nonlinear relationships between gene expression and spatial position, thereby accurately assigning spatial coordinates to dissociated cells. Systematic evaluation across diverse datasets spanning species, tissues, and platforms demonstrates that CellPos reliably and precisely infers cellular spatial positions, highlighting its broad potential for tissue reconstruction and spatial biology applications.
+
+Single-cell RNA sequencing (scRNA-seq) technologies greatly advance the study of cellular heterogeneity by enabling transcriptomic analysis at single-cell resolution. However, scRNA-seq data lacks spatial information, which is essential for a comprehensive understanding of tissue development, physiological homeostasis, and disease progression. Transferring spatial coordinate prediction capabilities from spatial transcriptomics (ST) data to scRNA-seq enables cellular spatial positioning but remains computationally challenging. To address this, we develop CellPos, a spatial positioning method that employs a graph attention autoencoder to align scRNA-seq and ST data, and combines multi-task learning strategy to model the complex nonlinear relationships between gene expression and spatial position, thereby accurately assigning spatial coordinates to dissociated cells. Systematic evaluation across diverse datasets spanning species, tissues, and platforms demonstrates that CellPos reliably and precisely infers cellular spatial positions, highlighting its broad potential for tissue reconstruction and spatial biology applications.
 
 ## Dependencies and requirements 
 ### Create a CellPos environment
@@ -40,6 +41,7 @@ seaborn==0.13.2
 The following are detailed tutorials.   
 1. CellPos is applied to [mouse embryo datasets](./tutorials/Analysis_Mouse_Embryo.ipynb) to perform spatial positioning.   
 2. CellPos is applied to [human DLPFC datasets](./tutorials/Analysis_Human_DLPFC.ipynb) to perform spatial positioning.  
+
 
 
 
