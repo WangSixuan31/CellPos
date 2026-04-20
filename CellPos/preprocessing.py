@@ -1,4 +1,4 @@
-# /env AutoLocater
+# /env cellpos
 """
 @author: Sixuan Wang
 """
