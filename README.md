@@ -42,7 +42,7 @@ seaborn==0.13.2
 The following are detailed tutorials.   
 1. CellPos is applied to [mouse embryo datasets](./tutorials/tutorials_Mouse_Embryo_E2z2.ipynb) to perform spatial positioning.   
 2. CellPos is applied to [human DLPFC datasets](./tutorials/tutorials_Human_DLPFC_sample3_151674.ipynb) to perform spatial positioning.  
-
+3. CellPos is applied to [mouse brain datasets](./tutorials/tutorials_Mouse_Brain_Coronal_MerFish_Ref_10X.ipynb) to perform spatial positioning.  
 
 
 
