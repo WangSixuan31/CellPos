@@ -11,7 +11,7 @@ Integrating single-cell resolution with spatial information is essential for und
 ### Create a CellPos environment
 For CellPos, the Python version needs to be above 3.8, and it is recommended to create a new environment.
 ```bash
-conda env create -n cellpos-env python=3.8.0
+conda create -n cellpos-env python=3.8.0
 conda activate cellpos-env 
 ```
 ### Install pytorch
