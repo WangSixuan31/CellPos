@@ -1,7 +1,7 @@
 
 ## A computing framework for spatial positioning of single-cell RNA sequencing data (CellPos)
 
-![CellPos Workflow](CellPos workflow.png)
+![CellPos overview](CellPos/CellPos workflow.png)
 
 Integrating spatial information at single-cell resolution is essential for understanding tissue architecture, development, and disease. Adding spatial context to the body of existing single-cell RNA sequencing data, enhances their interpretability and reuse potential, but inferring the spatial origin of individual cells remains challenging. Here, we present CellPos, a method that enables spatial positioning of dissociated single cells by transferring spatial knowledge from spatial transcriptomics references. CellPos embeds transcriptional similarity and spatial neighborhood relationships to infer spatial coordinates and cell identities. CellPos captures tissue-scale spatial organization and spatial distributions of cell types and marker genes across diverse species, tissues, and sequencing platforms.
 
