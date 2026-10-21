@@ -26,9 +26,9 @@ cd CellPos-master
 python setup.py build
 python setup.py install
 ```
-### Install kernal
+### Install kernel
 ```bash
-conda install ipykern
+conda install ipykernel
 python -m ipykernel install --user --name cellpos-env --display-name "Python (cellpos-env)"
 ```
 ### Install other dependencies
